@@ -42,12 +42,12 @@ class DataFile {
     SubCategoryModel mainModel = new SubCategoryModel();
     mainModel.catId = 1;
     mainModel.id = 1;
-    mainModel.name = "Chair";
+    mainModel.name = "의자";
     mainModel.image = ["dog_cloths.jpg"];
     mainModel.quantity = 1;
     mainModel.colorPosition = 1;
-    mainModel.price = 5.95;
-    mainModel.priceCurrency = "€";
+    mainModel.priceCurrency = "￦";
+    mainModel.price = 8973.50;
     mainModel.desc =
         "Amberville is a range of Hand-crafted Colonial Furniture inspired by Mid-Century Designs.";
     subList.add(mainModel);
@@ -58,8 +58,8 @@ class DataFile {
     mainModel.name = "Light";
     mainModel.quantity = 2;
     mainModel.image = ["cloth2.jpg"];
-    mainModel.price = 5.95;
-    mainModel.priceCurrency = "€";
+    mainModel.price = 8974 ;
+    mainModel.priceCurrency = "￦";
     mainModel.desc =
         "Amberville is a range of Hand-crafted Colonial Furniture inspired by Mid-Century Designs.";
     subList.add(mainModel);
@@ -71,8 +71,8 @@ class DataFile {
     mainModel.name = "Curtains";
     mainModel.image = ["cloth3.jpg"];
     mainModel.isFav = 1;
-    mainModel.price = 5.95;
-    mainModel.priceCurrency = "€";
+    mainModel.price = 8974;
+    mainModel.priceCurrency = "￦";
 
     mainModel.desc =
         "Amberville is a range of Hand-crafted Colonial Furniture inspired by Mid-Century Designs.";
@@ -192,7 +192,7 @@ class DataFile {
     mainModel.name = "Cooling vests";
     mainModel.image = ["dog4.jpg","cloth_sub2.jpg","cloth_sub3.jpg"];
     mainModel.price = 10.50;
-    mainModel.priceCurrency = "€";
+    mainModel.priceCurrency = "￦";
     mainModel.desc =
     "Each box contains 10 individually wrapped edible Sorbos EcoStraws.";
     subList.add(mainModel);
@@ -205,7 +205,7 @@ class DataFile {
     mainModel.name = "Winter coats or jackets.";
     mainModel.image = ["cloth2.jpg","dog4.jpg","cloth_sub2.jpg"];
     mainModel.price = 5.95;
-    mainModel.priceCurrency = "€";
+    mainModel.priceCurrency = "￦";
     mainModel.desc =
     "Each box contains 10 individually wrapped chocolate flavoured Sorbos Straws.";
     subList.add(mainModel);
@@ -218,7 +218,7 @@ class DataFile {
     mainModel.name = "Warm sweaters";
     mainModel.image = ["cloth3.jpg","cloth_sub2.jpg","dog4.jpg","cloth_sub3.jpg"];
     mainModel.price = 20.95;
-    mainModel.priceCurrency = "€";
+    mainModel.priceCurrency = "￦";
     mainModel.isFav = 1;
     mainModel.desc =
     "Each box contains 10 individually wrapped strawberry flavoured Sorbos Straws.";
@@ -233,7 +233,7 @@ class DataFile {
     // mainModel.quantity = 1;
     // mainModel.colorPosition = 1;
     // mainModel.price = 5.95;
-    // mainModel.priceCurrency = "€";
+    // mainModel.priceCurrency = "￦";
     // mainModel.desc =
     //     "Amberville is a range of Hand-crafted Colonial Furniture inspired by Mid-Century Designs.";
     // subList.add(mainModel);
@@ -245,7 +245,7 @@ class DataFile {
     // mainModel.quantity = 2;
     // mainModel.image = ["dog_cloths.jpg"];
     // mainModel.price = 5.95;
-    // mainModel.priceCurrency = "€";
+    // mainModel.priceCurrency = "￦";
     // mainModel.desc =
     //     "Amberville is a range of Hand-crafted Colonial Furniture inspired by Mid-Century Designs.";
     // subList.add(mainModel);
@@ -258,7 +258,7 @@ class DataFile {
     // mainModel.image = ["dog_cloths.jpg"];
     // mainModel.isFav = 1;
     // mainModel.price = 5.95;
-    // mainModel.priceCurrency = "€";
+    // mainModel.priceCurrency = "￦";
     //
     // mainModel.desc =
     //     "Amberville is a range of Hand-crafted Colonial Furniture inspired by Mid-Century Designs.";
@@ -451,12 +451,12 @@ class DataFile {
     mainModel.id = 1;
     mainModel.review = 3;
     mainModel.reviewDesc = "(4.8)";
-    mainModel.name = "Cooling vests";
+    mainModel.name = "냉각 조끼";
     mainModel.image = ["dog4.jpg","cloth_sub2.jpg","cloth_sub3.jpg"];
-    mainModel.price = 10.50;
-    mainModel.priceCurrency = "€";
+    mainModel.price = 14700;
+    mainModel.priceCurrency = "￦";
     mainModel.desc =
-        "Each box contains 10 individually wrapped edible Sorbos EcoStraws.";
+        "각 상자에는 개별 포장된 Sorbos 에코 빨대 10개가 들어 있습니다.";
     subList.add(mainModel);
 
     mainModel = new SubCategoryModel();
@@ -464,12 +464,12 @@ class DataFile {
     mainModel.id = 2;
     mainModel.review = 3;
     mainModel.reviewDesc = "(3.0)";
-    mainModel.name = "Winter coats or jackets.";
+    mainModel.name = "겨울 코트";
     mainModel.image = ["cloth2.jpg","dog4.jpg","cloth_sub2.jpg"];
-    mainModel.price = 5.95;
-    mainModel.priceCurrency = "€";
+    mainModel.price = 8330;
+    mainModel.priceCurrency = "￦";
     mainModel.desc =
-        "Each box contains 10 individually wrapped chocolate flavoured Sorbos Straws.";
+        "각 상자에는 개별 포장된 초콜릿 맛 Sorbos 빨대 10개가 들어 있습니다.";
     subList.add(mainModel);
 
     mainModel = new SubCategoryModel();
@@ -477,13 +477,13 @@ class DataFile {
     mainModel.review = 3;
     mainModel.reviewDesc = "(2.5)";
     mainModel.id = 3;
-    mainModel.name = "Warm sweaters";
+    mainModel.name = "따뜻한 스웨터";
     mainModel.image = ["cloth3.jpg","cloth_sub2.jpg","dog4.jpg","cloth_sub3.jpg"];
-    mainModel.price = 20.95;
-    mainModel.priceCurrency = "€";
+    mainModel.price = 29330;
+    mainModel.priceCurrency = "￦";
     mainModel.isFav = 1;
     mainModel.desc =
-        "Each box contains 10 individually wrapped strawberry flavoured Sorbos Straws.";
+        "각 상자에는 개별 포장된 딸기 맛 Sorbos 빨대 10개가 들어 있습니다.";
     subList.add(mainModel);
 
     mainModel = new SubCategoryModel();
@@ -491,12 +491,12 @@ class DataFile {
     mainModel.review = 3;
     mainModel.reviewDesc = "(4.8)";
     mainModel.id = 4;
-    mainModel.name = "jackets";
+    mainModel.name = "재킷";
     mainModel.image = ["dog_cloths.jpg","dog4.jpg","cloth_sub2.jpg","cloth3.jpg"];
-    mainModel.price = 7.20;
-    mainModel.priceCurrency = "€";
+    mainModel.price = 10080;
+    mainModel.priceCurrency = "￦";
     mainModel.desc =
-        "Each box contains 10 individually wrapped lime flavoured Sorbos Straws.";
+        "각 상자에는 개별 포장된 라임 맛 Sorbos 빨대 10개가 들어 있습니다.";
     subList.add(mainModel);
 
     // mainModel = new SubCategoryModel();
@@ -508,7 +508,7 @@ class DataFile {
     // mainModel.isFav = 1;
     // mainModel.name = "Sorbos Edible Straws – Lemon";
     // mainModel.image = "cat_5.png";
-    // mainModel.price = "€5.95";
+    // mainModel.price = "￦5.95";
     // mainModel.desc =
     //     "Each box contains 10 individually wrapped lemon flavoured Sorbos Straws.";
     // subList.add(mainModel);
@@ -527,7 +527,7 @@ class DataFile {
     mainModel.name = "Classic Adult Chicken";
     mainModel.image = ["food1.jpg","food3.jpg"];
     mainModel.price = 7.95;
-    mainModel.priceCurrency = "€";
+    mainModel.priceCurrency = "￦";
     mainModel.desc =
         "Each box contains 10 individually wrapped edible Sorbos EcoStraws.";
     subList.add(mainModel);
@@ -540,7 +540,7 @@ class DataFile {
     mainModel.name = "Large Breed Adult";
     mainModel.image = ["food2.jpg","food1.jpg","food3.jpg"];
     mainModel.price = 10.5;
-    mainModel.priceCurrency = "€";
+    mainModel.priceCurrency = "￦";
     mainModel.desc =
         "Each box contains 10 individually wrapped chocolate flavoured Sorbos Straws.";
     subList.add(mainModel);
@@ -553,7 +553,7 @@ class DataFile {
     mainModel.name = "Classic Puppy Milk Flavor";
     mainModel.image = ["food3.jpg","food2.jpg","food1.jpg"];
     mainModel.price = 5.20;
-    mainModel.priceCurrency = "€";
+    mainModel.priceCurrency = "￦";
     mainModel.isFav = 1;
     mainModel.desc =
         "Each box contains 10 individually wrapped strawberry flavoured Sorbos Straws.";
@@ -573,7 +573,7 @@ class DataFile {
     mainModel.name = "Classic Adult Chicken";
     mainModel.image = ["belt1.png", "belt_sub1.png", "belt_sub2.png"];
     mainModel.price = 7.95;
-    mainModel.priceCurrency = "€";
+    mainModel.priceCurrency = "￦";
     mainModel.desc =
         "Each box contains 10 individually wrapped edible Sorbos EcoStraws.";
     subList.add(mainModel);
@@ -586,7 +586,7 @@ class DataFile {
     mainModel.name = "Large Breed Adult";
     mainModel.image = ["belt2.jpg", "belt_sub3.png", "belt1.png"];
     mainModel.price = 10.5;
-    mainModel.priceCurrency = "€";
+    mainModel.priceCurrency = "￦";
     mainModel.desc =
         "Each box contains 10 individually wrapped chocolate flavoured Sorbos Straws.";
     subList.add(mainModel);
@@ -599,7 +599,7 @@ class DataFile {
     mainModel.name = "Classic Puppy Milk Flavor";
     mainModel.image = ["belt_3.jpg", "belt1.png", "belt_sub2.png"];
     mainModel.price = 5.20;
-    mainModel.priceCurrency = "€";
+    mainModel.priceCurrency = "￦";
     mainModel.isFav = 1;
     mainModel.desc =
         "Each box contains 10 individually wrapped strawberry flavoured Sorbos Straws.";

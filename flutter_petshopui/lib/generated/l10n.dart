@@ -384,7 +384,7 @@ class S {
   String get shopping {
     return Intl.message(
       'Shopping',
-      name: 'shopping',
+      name: 'Shopping',
       desc: '',
       args: [],
     );
@@ -393,8 +393,8 @@ class S {
   /// `Treatment`
   String get treatment {
     return Intl.message(
-      'Treatment',
-      name: 'treatment',
+      '치료',
+      name: '치료',
       desc: '',
       args: [],
     );
@@ -403,8 +403,8 @@ class S {
   /// `Pet Hotel`
   String get petHotel {
     return Intl.message(
-      'Pet Hotel',
-      name: 'petHotel',
+      '펫 호텔',
+      name: '펫 호텔',
       desc: '',
       args: [],
     );
@@ -413,8 +413,8 @@ class S {
   /// `Adoption`
   String get adoption {
     return Intl.message(
-      'Adoption',
-      name: 'adoption',
+      '입양',
+      name: '입양',
       desc: '',
       args: [],
     );
@@ -423,8 +423,8 @@ class S {
   /// `Latest Offers`
   String get latestOffers {
     return Intl.message(
-      'Latest Offers',
-      name: 'latestOffers',
+      '최신 할인',
+      name: '최신 할인',
       desc: '',
       args: [],
     );
@@ -433,8 +433,8 @@ class S {
   /// `Best Selling Items`
   String get bestSellingItems {
     return Intl.message(
-      'Best Selling Items',
-      name: 'bestSellingItems',
+      '인기 상품',
+      name: '인기 상품',
       desc: '',
       args: [],
     );
@@ -443,8 +443,8 @@ class S {
   /// `Good to Read`
   String get goodToRead {
     return Intl.message(
-      'Good to Read',
-      name: 'goodToRead',
+      '읽을만한',
+      name: '읽을만한',
       desc: '',
       args: [],
     );
@@ -453,8 +453,8 @@ class S {
   /// `Order Now`
   String get orderNow {
     return Intl.message(
-      'Order Now',
-      name: 'orderNow',
+      '주문하기',
+      name: '주문하기',
       desc: '',
       args: [],
     );
@@ -463,8 +463,8 @@ class S {
   /// `Cart`
   String get cart {
     return Intl.message(
-      'Cart',
-      name: 'cart',
+      '장바구니',
+      name: '장바구니',
       desc: '',
       args: [],
     );
