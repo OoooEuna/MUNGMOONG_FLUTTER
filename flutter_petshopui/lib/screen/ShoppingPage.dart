@@ -288,21 +288,21 @@ class _ShoppingPage extends State<ShoppingPage> {
                                           FontWeight.w600,
                                           Constants.getPercentSize1(
                                               mainCatHeight, 8)),
-                                      Text(
-                                        _subCatModle.priceCurrency! +
-                                            (_subCatModle.price! -
-                                                    Constants.discountVal)
-                                                .toString(),
-                                        style: TextStyle(
-                                            color: primaryTextColor,
-                                            decoration:
-                                                TextDecoration.lineThrough,
-                                            fontFamily: Constants.fontsFamily,
-                                            fontSize: Constants.getPercentSize1(
-                                                mainCatHeight, 6),
-                                            fontWeight: FontWeight.w600),
-                                        maxLines: 1,
-                                      )
+                                      // Text(
+                                      //   _subCatModle.priceCurrency! +
+                                      //       (_subCatModle.price! -
+                                      //               Constants.discountVal)
+                                      //           .toString(),
+                                      //   style: TextStyle(
+                                      //       color: primaryTextColor,
+                                      //       decoration:
+                                      //           TextDecoration.lineThrough,
+                                      //       fontFamily: Constants.fontsFamily,
+                                      //       fontSize: Constants.getPercentSize1(
+                                      //           mainCatHeight, 6),
+                                      //       fontWeight: FontWeight.w600),
+                                      //   maxLines: 1,
+                                      // )
                                       // getCustomText(
                                       //     _subCatModle.price,
                                       //     primaryColor,
