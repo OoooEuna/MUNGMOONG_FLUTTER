@@ -143,8 +143,8 @@ class S {
   /// `Email Address*`
   String get emailAddress {
     return Intl.message(
-      'Email Address*',
-      name: 'emailAddress',
+      '이메일',
+      name: '이메일',
       desc: '',
       args: [],
     );
@@ -153,8 +153,8 @@ class S {
   /// `Password*`
   String get password {
     return Intl.message(
-      'Password*',
-      name: 'password',
+      '비밀번호',
+      name: '비밀번호',
       desc: '',
       args: [],
     );
@@ -193,8 +193,8 @@ class S {
   /// `Register`
   String get register {
     return Intl.message(
-      'Register',
-      name: 'register',
+      '회원가입하기',
+      name: '회원가입',
       desc: '',
       args: [],
     );
@@ -263,28 +263,27 @@ class S {
   /// `To Continue, first verify that it's you.`
   String get SignInMsg {
     return Intl.message(
-      'To Continue, first verify that it\'s you.',
-      name: 'SignInMsg',
+      '계속하려면 먼저 본인 인증을 해주세요.',
+      name: '본인인증',
       desc: '',
       args: [],
     );
   }
 
-  /// `Let's Sign You In`
-  String get signYouIn {
-    return Intl.message(
-      'Let\'s Sign You In',
-      name: 'signYouIn',
-      desc: '',
-      args: [],
-    );
-  }
+ String get signYouIn {
+  return Intl.message(
+    '로그인하세요', // 번역된 문자열
+    name: '로그인',
+    desc: '',
+    args: [],
+  );
+}
 
   /// `Forgot password?`
   String get forgotPassword {
     return Intl.message(
-      'Forgot password?',
-      name: 'forgotPassword',
+      '비밀번호를 잊으셨습니까?',
+      name: '비밀번호 찾기',
       desc: '',
       args: [],
     );
@@ -293,23 +292,22 @@ class S {
   /// `Set your Password?`
   String get setYourPassword {
     return Intl.message(
-      'Set your Password?',
-      name: 'setYourPassword',
+      '비밀번호를 잊으셨습니까?',
+      name: '비밀번호 찾기',
       desc: '',
       args: [],
     );
   }
 
   /// `Please enter your email address.You will receive a link to create a new password via email.`
-  String get passwordDesc {
-    return Intl.message(
-      'Please enter your email address.You will receive a link to create a new password via email.',
-      name: 'passwordDesc',
-      desc: '',
-      args: [],
-    );
-  }
-
+ String get passwordDesc {
+  return Intl.message(
+    '이메일 주소를 입력해 주세요. 새로운 비밀번호를 생성할 수 있는 링크를 이메일로 보내드립니다.',
+    name: '비밀번호 찾기',
+    desc: '',
+    args: [],
+  );
+}
   /// `Send`
   String get send {
     return Intl.message(
@@ -323,8 +321,8 @@ class S {
   /// `Don't have an Account?`
   String get donHaveAnAccount {
     return Intl.message(
-      'Don\'t have an Account?',
-      name: 'donHaveAnAccount',
+      '계정이 없으신가요?',
+      name: '계정',
       desc: '',
       args: [],
     );
@@ -1573,8 +1571,8 @@ class S {
   /// `Filter products with more specific types`
   String get filterProductsWithMoreSpecificTypes {
     return Intl.message(
-      'Filter products with more specific types',
-      name: 'filterProductsWithMoreSpecificTypes',
+      '더 구체적인 유형으로 제품 필터링',
+      name: '더 구체적인 유형으로 제품 필터링',
       desc: '',
       args: [],
     );
