@@ -29,16 +29,16 @@ class _ShoppingPage extends State<ShoppingPage> {
   List<String> selectionList = ["All", "Food", "Belt", "Cloths"];
   List<String> selectedFilterList = [];
   List<String> filterList = [
-    "King",
-    "Pedigre",
-    "Barker",
-    "Whiskes",
-    "Chomp",
-    "Pet Toys",
-    "Meowo",
-    "Basche",
-    "Domino"
-  ];
+    "킹",        // King
+    "페디그리",  // Pedigre
+    "바커",      // Barker
+    "위스커스",  // Whiskes
+    "촘프",      // Chomp
+    "반려동물 장난감", // Pet Toys
+    "미오우",    // Meowo
+    "바셰",      // Basche
+    "도미노"     // Domino
+];
   List<String> selectedSortList = [];
   List<String> sortSelectionList = [
     "Latest Product",
